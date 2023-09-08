@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
 
 .App {
   text-align: center;
@@ -8,7 +9,17 @@
 
 .headerFont {
   font-family: 'Lobster', cursive;
+  font-size: 2.4rem;
+  color: rgb(41, 41, 41);
+  letter-spacing: 0.6rem;
 }
+
+.subHeading {
+  font-family: 'Lobster', cursive;
+  color: rgb(41, 41, 41);
+  letter-spacing: 0.6rem;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

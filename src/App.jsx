@@ -36,8 +36,8 @@ function Header() {
 function SubHeader() {
   return (
     <>
-      <h3>Our Menu</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ut officia ipsum dignissimos magnam. Sit, dolores quod officia temporibus nisi, placeat tempore dicta ullam, autem amet deleniti porro aspernatur officiis?</p>
+      <h1 className='subHeading'>Our Menu</h1>
+      <p style={{ fontFamily: "'Raleway', sans-serif"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ut officia ipsum dignissimos magnam. Sit, dolores quod officia temporibus nisi, placeat tempore dicta ullam, autem amet deleniti porro aspernatur officiis?</p>
     </>
   )
 }
@@ -54,7 +54,7 @@ function Menu({ menus }) {
 }
 function Footer() {
   return (
-    <p>We are open 24 / 7</p>
+    <p style={{ fontFamily: "'Raleway', sans-serif" }}>We are open 24 / 7</p>
   )
 }
 
@@ -63,7 +63,7 @@ function CardContainer({image, title}) {
     <Card style={{ width: '18rem', margin: "15px" }}>
       <Card.Img variant="top" src={image} style={{width: "200px", height: "200px", objectFit: "cover", borderRadius: "25px"}}/>
       <Card.Body>
-        <Card.Title style={{fontSize: "1.2rem", fontWeight: "bold"}}>{title}</Card.Title>
+        <Card.Title style={{ fontSize: "1.2rem", fontWeight: "bold", fontFamily: "'Raleway', sans-serif"}}>{title}</Card.Title>
       </Card.Body>
     </Card>
   );
